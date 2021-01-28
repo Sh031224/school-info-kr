@@ -1,0 +1,28 @@
+{
+  "name": "school-info-kr",
+  "version": "1.0.0",
+  "description": "school info for korean",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sh031224/school-info-kr.git"
+  },
+  "author": "Sh031224 <1cktmdgh2@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sh031224/school-info-kr/issues"
+  },
+  "homepage": "https://github.com/Sh031224/school-info-kr#readme",
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1"
+  }
+}
