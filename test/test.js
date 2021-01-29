@@ -1,4 +1,4 @@
-const school = require("../dist");
+const school = require("../dist").default;
 const schoolId = "7240393";
 const officeCode = "D10";
 
@@ -28,4 +28,4 @@ async function test(iter) {
   await calendar(iter);
 }
 
-test(20);
+test(5);

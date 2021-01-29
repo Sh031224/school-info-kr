@@ -1,8 +1,8 @@
 {
   "name": "school-info-kr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "school info for korean",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
@@ -14,6 +14,13 @@
   },
   "author": "Sh031224 <1cktmdgh2@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "school",
+    "schedule",
+    "meal",
+    "neis school",
+    "school info"
+  ],
   "bugs": {
     "url": "https://github.com/Sh031224/school-info-kr/issues"
   },
